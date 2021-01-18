@@ -8,11 +8,58 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvContacts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Contacts App"
-        android:textSize="30dp"
+        android:text="@string/contacts_app"
+        android:textSize="30sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivFace"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        app:srcCompat="@drawable/happy" />
+
+    <ImageView
+        android:id="@+id/ivPhone"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="150dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/phone"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/ivWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/website"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/ivLocation"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/location"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/create_new_contact" />
 </LinearLayout>

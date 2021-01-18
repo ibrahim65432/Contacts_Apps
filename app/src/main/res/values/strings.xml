@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Intents</string>
+    <string name="please_enter_your_name">please enter your name</string>
+    <string name="please_enter_your_number">please enter your number</string>
+    <string name="please_enter_your_website">please enter your website</string>
+    <string name="please_enter_location">please enter location</string>
+    <string name="contacts_app">Contacts App</string>
+    <string name="create_new_contact">CREATE NEW CONTACT</string>
+    <string name="neutral">Neutral</string>
+    <string name="sad">Sad</string>
+    <string name="happy">Happy</string>
 </resources>
